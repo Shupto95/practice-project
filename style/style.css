@@ -12,3 +12,37 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.text_gray{
+    color: #424242;
+}
+
+.bg_light{
+    background-color: rgba(255,144,14,0.1);
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* shared style */
+ .display-flex{
+    display: flex;
+ }
+
+/* header style */
+
+/* navbar section start */
+.navbar{
+    justify-content: space-between;
+}
+
+.nav_item{
+    list-style: none;
+    margin-right:30px
+}
+.nav_link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* navbar section end */
